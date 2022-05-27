@@ -20,6 +20,28 @@ footer {
   padding: 80px;
 }
 
+@media only screen and (max-width: 768px) {
+  footer h2 {
+    font-size: 40px;
+  }
+
+  footer p {
+    font-size: 20px;
+  }
+
+}
+
+@media only screen and (max-width: 450px) {
+  footer h2 {
+    font-size: 30px;
+  }
+
+  footer p {
+    font-size: 12px;
+  }
+
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -146,7 +168,7 @@ p {
   justify-content: space-around;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 992px) {
   .project-container {
     display: flex;
     flex-wrap: wrap;
@@ -190,7 +212,7 @@ a {
   outline: 0;
 } */
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 992px) {
   .hamburger {
     display: block;
     border: 0;
