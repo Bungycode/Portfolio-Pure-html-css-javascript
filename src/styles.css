@@ -5,7 +5,7 @@ html, body {
   box-sizing: border-box;
   max-width: 100%;
 }
-
+p
 section {
   background-color: white;
 }
@@ -21,29 +21,11 @@ footer {
   background-color: black;
   color: white;
   text-align: center;
-  padding: 80px;
+  padding: 20px;
 }
 
-@media only screen and (max-width: 768px) {
-  footer h2 {
-    font-size: 40px;
-  }
-
-  footer p {
-    font-size: 20px;
-  }
-
-}
-
-@media only screen and (max-width: 450px) {
-  footer h2 {
-    font-size: 30px;
-  }
-
-  footer p {
-    font-size: 12px;
-  }
-
+.copy-right {
+  margin-top: 20px;
 }
 
 nav {
@@ -133,7 +115,7 @@ p {
 }
 
 .socials {
-  padding-bottom:  200px;
+  padding-bottom: 200px;
 }
 
 .logo {
@@ -143,6 +125,7 @@ p {
 
 .social {
   margin: 20px;
+
 }
 
 .sub-section {
@@ -170,14 +153,6 @@ p {
 .project-container {
   display: flex;
   justify-content: space-around;
-}
-
-@media only screen and (max-width: 992px) {
-  .project-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
 }
 
 .project-card {
@@ -247,4 +222,68 @@ a {
   .logo {
     display: none;
   }
+
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  .hero-area {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  .socials {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .sub-section {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+
+  .sub-section p {
+    font-size: 20px;
+  }
+
+  footer h2 {
+    font-size: 40px;
+  }
+
+  footer p {
+    font-size: 20px;
+  }
+
+  /* footer p:nth-child(3) {
+
+  } */
+
+}
+
+@media only screen and (max-width: 450px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  .hero-text p {
+    font-size: 20px;
+  }
+
+  footer h2 {
+    font-size: 30px;
+  }
+
+  footer p {
+    font-size: 12px;
+  }
+
 }
