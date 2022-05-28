@@ -5,7 +5,7 @@ html, body {
   box-sizing: border-box;
   max-width: 100%;
 }
-p
+
 section {
   background-color: white;
 }
@@ -68,7 +68,6 @@ p {
 
 .hero-area {
   display: flex;
-  height: 100%;
   justify-content: space-between;
   align-items: center;
 }
@@ -232,19 +231,40 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
+  ul {
+    width: 100vw;
+    font-size: 25px;
+    padding: 0;
+  }
+
+  ul.show {
+    display: flex;
+    justify-content: space-around;
+  }
+
   .hero-area {
     flex-direction: column;
+    justify-content: space-evenly;
+    height: 100vh;
+  }
+
+  .hero-text {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+    margin: 0;
   }
 
   h1 {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   .socials {
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
+    padding: 0px; 
   }
 
   .sub-section {
@@ -287,6 +307,11 @@ a {
   ul.show {
     display: flex;
     justify-content: space-around;
+  }
+
+  .hero-area {
+    margin-top: 20px;
+    height: initial;
   }
 
   .hero-text {
