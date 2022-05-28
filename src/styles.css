@@ -125,7 +125,6 @@ p {
 
 .social {
   margin: 20px;
-
 }
 
 .sub-section {
@@ -234,6 +233,7 @@ a {
   ul {
     font-size: 25px;
     padding: 0;
+    width: 100vw;
   }
 
   ul.show {
@@ -346,18 +346,25 @@ a {
 
 
 @media only screen and (max-height: 450px) and (max-width: 992px) {
+  .hero {
+    display: flex;
+    flex-direction: column;
+  }
+
   ul {
     font-size: 15px;
+    padding-left: 0px;
   }
 
   ul.show {
     display: flex;
     justify-content: space-around;
+    width: 100vw;
   }
 
   .hero-area {
     flex-direction: row;
-    height: initial;
+    height: 100vh;
     padding-top: 0;
     justify-content: space-evenly;
   }
