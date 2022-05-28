@@ -70,6 +70,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 200px;
 }
 
 .hero-text {
@@ -246,6 +247,7 @@ a {
     flex-direction: column;
     justify-content: space-evenly;
     height: 100vh;
+    padding-top: 0;
   }
 
   .hero-text {
