@@ -235,6 +235,7 @@ a {
   .hero-area {
     flex-direction: column;
     justify-content: center;
+    margin-top: 20px;
   }
 
   h1 {
@@ -243,7 +244,7 @@ a {
 
   .socials {
     display: flex;
-    flex-direction: row;
+    flex-direction: row; 
   }
 
   .sub-section {
@@ -271,12 +272,37 @@ a {
 }
 
 @media only screen and (max-width: 450px) {
+  .hero {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  ul {
+    width: 100vw;
+    font-size: 15px;
+    padding: 0;
+  }
+
+  ul.show {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .hero-text {
+    margin-bottom: 50px;
+  }
+
   h1 {
     font-size: 40px;
   }
 
   .hero-text p {
     font-size: 20px;
+  }
+
+  .socials {
+    padding: 0;
   }
 
   .project-image {
@@ -292,3 +318,30 @@ a {
   }
 
 }
+
+/* @media only screen and (orientation: landscape) {
+  h1 {
+    font-size: 20px;
+  }
+
+  .hero-text p {
+    font-size: 15px;
+  }
+
+  .hero {
+    display: flex;
+  }
+
+  /* .hamburger {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+  } 
+  
+}*/
