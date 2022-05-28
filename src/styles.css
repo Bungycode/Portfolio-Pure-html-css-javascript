@@ -164,8 +164,9 @@ p {
 
 .project-image {
   margin-top: 25px;
-  width: 250px;
-  border-radius: 125px;
+  height: 50%;
+  width: 100%;
+  border-radius: 50%;
 }
 
 hr {
@@ -276,6 +277,10 @@ a {
 
   .hero-text p {
     font-size: 20px;
+  }
+
+  .project-image {
+    height: 38%;
   }
 
   footer h2 {
