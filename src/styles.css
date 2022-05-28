@@ -211,7 +211,6 @@ a {
 
   ul.show {
     display: block;
-    width: 100vw;
   }
 
   nav {
@@ -233,7 +232,6 @@ a {
 
 @media only screen and (max-width: 768px) {
   ul {
-    width: 100vw;
     font-size: 25px;
     padding: 0;
   }
@@ -346,14 +344,70 @@ a {
 
 }
 
-@media only screen and (orientation: landscape) {
+
+@media only screen and (max-height: 368px) and (max-width: 992px) {
+  ul {
+    font-size: 15px;
+  }
+
+  ul.show {
+    display: flex;
+    justify-content: space-around;
+  }
+
   .hero-area {
     flex-direction: row;
     height: initial;
+    padding-top: 0;
+    justify-content: space-evenly;
+  }
+
+  .hero-area p {
+    font-size: 15px;
+  }
+
+  .hero-text {
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .socials {
+    flex-direction: column;
+    margin-top: 0;
+  }
+
+  .socials svg {
+    height: 30px;
+    width: 30px;
+  }
+
+  .button {
+    font-size: 15px;
+    height: 30px;
+    width: 100px
+  }
+
+}
+
+/* @media only screen and (orientation: landscape) {
+  .hero-area {
+    flex-direction: row;
+    height: initial;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .hero-area p {
+    font-size: 15px;
   }
 
   .socials {
     flex-direction: column;
     margin-top: 25px;
   }
-}
+} */
