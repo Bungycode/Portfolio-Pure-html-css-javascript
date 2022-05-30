@@ -344,6 +344,16 @@ a {
 
 }
 
+@media only screen and (max-height: 768px) and (min-width: 769px) {
+  .hero-area {
+    padding-top: 0;
+  }
+
+  ul {
+    font-size: 20px;
+  }
+}
+
 
 @media only screen and (max-height: 450px) and (max-width: 992px) {
   .hero {
