@@ -26,6 +26,10 @@
 
   ## License 
   The application does not have a license.
+  
+  ## Resume
+  
+  https://docs.google.com/document/d/1sLfc8nT13mewV1QKRZ_0Yl6CcuwcACpa/edit?usp=sharing&ouid=108939129431655627740&rtpof=true&sd=true
 
   ## Questions
   You can search for my repo on GitHub by entering Bungycode and you can view my projects at https://github.com/Bungycode. If you have any questions, please contact me at thedevandrew@gmail.com
