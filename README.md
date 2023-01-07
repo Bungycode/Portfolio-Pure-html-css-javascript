@@ -36,5 +36,5 @@
 
   ## Deployable Site
 
-  [Professional Portfolio](https://bungycode.github.io/Portfolio-Pure-html-css-javascript/){:target="_blank" rel="noopener"}
+  [Professional Portfolio](https://bungycode.github.io/Portfolio-Pure-html-css-javascript/)
 
