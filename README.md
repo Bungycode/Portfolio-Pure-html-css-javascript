@@ -29,7 +29,7 @@
   
   ## Resume
   
-  [Bungcayao_Andrew_Resume_.pdf](https://github.com/Bungycode/Portfolio-Pure-html-css-javascript/files/10868211/Bungcayao_Andrew_Resume_.pdf)
+  [Click Here](https://github.com/Bungycode/Portfolio-Pure-html-css-javascript/files/10868211/Bungcayao_Andrew_Resume_.pdf)
 
 
   ## Questions
