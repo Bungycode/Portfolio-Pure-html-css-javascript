@@ -10,7 +10,7 @@
   * [Questions](#questions)
   
   ## Description 
-  This portfolio is to showcase me as a software developer! In this portfolio I have 4 projects that I feel are my current best works. This portfolio is also reponsive for all device sizes, from desktop to mobile. This portfolio was made desktop-first but can create websites that are mobile-first. This portfolio showcases my skills in html, css, and some javascript.
+  This portfolio is to showcase me as a software developer! In this portfolio I also have four projects. This portfolio is also reponsive for all device sizes, from desktop to mobile. This portfolio was made desktop-first but can create websites that are mobile-first. This portfolio showcases my skills in html, css, and some javascript.
   
   ## Installation 
   To view this website all you need is the internet!
