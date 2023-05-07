@@ -138,7 +138,6 @@ p {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 80px;
 }
 
 .headshot-container {
@@ -166,7 +165,8 @@ p {
 .project-image {
   margin-top: 25px;
   height: 50%;
-  width: 100%;
+  max-width: 90%;
+  min-width: 200px;
   border-radius: 50%;
 }
 
